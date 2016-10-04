@@ -11,5 +11,5 @@ namespace myApp {
             ];
         }
     }
-    angular("MovieApp").controller("MovieListController", MovieListController);
+    angular.module("MovieApp").controller("MovieListController", MovieListController);
 }
